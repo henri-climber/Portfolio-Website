@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import easyCompImg from '../../assets/images/easycom1p.png';
+import easyCompImg from '../../assets/images/homepage.jpeg';
 import nitrateImg from '../../assets/images/nitrate.png';
 import WebsiteButton from '../common_components/icon_button';
 import globeIcon from '../../assets/icons/globe-1.png';

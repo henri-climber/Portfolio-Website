@@ -6,7 +6,7 @@ import { FiDownload } from 'react-icons/fi';
 
 const AboutMe = () => {
   const handleButtonClick = () => {
-    window.open("https://drive.google.com/file/d/1sD9yl1oM3wSSY5IhbbNPqThP8UnCDdPB/view?usp=sharing", '_blank');
+    window.open("https://drive.google.com/file/d/1GQbC0PmpiK7lre6yr10wHFHDz30irw_f/view?usp=drive_link", '_blank');
   };
 
   return (
@@ -19,18 +19,19 @@ const AboutMe = () => {
             <img className="img1" src={henriImg} alt="Henri" />
           </div>
           <p>
-          Hey there, I'm Henri, a tech enthusiast from  Germany. I've been coding for four years and just started studying Physics at TUM in Munich. 
-          I started by creating little 2D games with Pygame and am now working on data science projects and my startup. 
-          Last year, I participated in two big Hackathons, Junctions and START Hack,  which were both fantastic. 
-          I can't wait to compete at more Hackathons in the future.</p>
+          Hey there, I'm Henri, a tech enthusiast and entrepreneur from Germany. I'm currently in my third semester studying Physics at TU Munich. 
+          With over five years of coding experience, I've evolved from creating 2D games with Pygame to developing full-stack applications and 
+          working on data science research projects. Additionally I founded my own startup EasyComp, where I developed a webapp for climbing 
+          competition management across Germany.</p>
           <img className="img11" src={henriImg} alt="Henri" />
         </div>
         <div className="about-me">
           <img className="img2" src={henriClimbImg} alt="Henri" />
           <p>
-          Beyond programming and academics, I'm passionate about climbing, especially as a competitive sport. I've competed at the 
-          national level for nine years and internationally. Competitive climbing has taught me resilience, strategy, and 
-          focus—skills that have been helpful both in my studies and my everyday life.
+          Beyond academics and entrepreneurship, I'm deeply passionate about competitive climbing. I've competed at the national level for over 
+          nine years and have represented Germany internationally. This sport has shaped my approach to problem-solving, teaching me resilience, 
+          strategic thinking, and the ability to perform under pressure, qualities that directly translate to my work in technology and research. 
+          When I'm not coding or climbing, you'll find me hiking in the mountains, skiing, playing volleyball or just spending time with friends.
           </p>
         </div>
         <button className="btn" onClick={handleButtonClick}>

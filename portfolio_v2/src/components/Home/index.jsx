@@ -11,8 +11,8 @@ const Home = () => {
 
 // create the arrays for "Physics Student"
 const nameArray = ["P", "h", "y", "s", "i", "c", "s", " ", "S", "t", "u", "d", "e", "n", "t", " ","&"]
-const nameArray2 = ["S", "e", "l", "f", "-", "t", "a", "u", "g", "h", "t", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"] 
-const nameArray3 = ["S", "e", "l", "f", "-", "t", "a", "u", "g", "h", "t"," ", "D", "e", "v", "e", "l", "o", "p", "e", "r"]
+const nameArray2 = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"] 
+const nameArray3 = ["S", "o", "f", "t", "w", "a", "r", "e", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"]
 const nameArray4 = ["D", "e", "v", "e", "l", "o", "p", "e", "r"]
   useEffect(() => {
       setTimeout(() => {
